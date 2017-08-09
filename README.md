@@ -20,8 +20,14 @@ Check your actual status on your palmetto ssh session by typing "groups" on the 
 
 Login to palmetto
 Request a compute node by type the command
+
+```
 $ qsub -I
+```
 
 Then type
+
+```
 $module add deep-learning
 $python -m digits.download_data mnist ~/mnist
+```
